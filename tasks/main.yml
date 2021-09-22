@@ -1,0 +1,3 @@
+---
+- name: Install PhantomJS
+  apt: pkg=phantomjs={{ phantomjs_version }} state=present
